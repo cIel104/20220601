@@ -49,7 +49,7 @@ function draw(x, y) {
     return;
   }
   context.lineWidth = 5;
-  context.strokeStyle = "yellow";
+  context.strokeStyle = "red";
   context.lineTo(x - r.left, y - r.top); //キャンバスの左上からの座標
   context.stroke();
 }
